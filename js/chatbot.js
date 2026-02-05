@@ -193,7 +193,7 @@ function submitContactDetails() {
 
 function saveChatbotLead() {
     // Google Sheets Web App URL - YOU NEED TO REPLACE THIS
-    const CHATBOT_SHEET_URL = 'YOUR_GOOGLE_APPS_SCRIPT_WEBHOOK_URL_HERE';
+    const CHATBOT_SHEET_URL = 'https://script.google.com/macros/s/AKfycbxUDk83iqBUdqNETVFcYY7Xabys9q9ok0_6VuLPehwCu_vGeRGWiUEQR3TgTiDwxcKI/exec';
 
     const data = {
         timestamp: new Date().toISOString(),
@@ -223,3 +223,4 @@ function getDetailedAnswer(key) {
 
     return answers[key] || "Our team will reach out to you with detailed information shortly!";
 }
+
