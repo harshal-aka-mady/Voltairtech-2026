@@ -5,7 +5,7 @@ const formSuccess = document.getElementById('form-success');
 const formError = document.getElementById('form-error');
 
 // Google Sheets Web App URL - YOU NEED TO REPLACE THIS
-const CONTACT_FORM_SHEET_URL = 'YOUR_GOOGLE_APPS_SCRIPT_WEBHOOK_URL_HERE';
+const CONTACT_FORM_SHEET_URL = 'https://script.google.com/macros/s/AKfycbxUDk83iqBUdqNETVFcYY7Xabys9q9ok0_6VuLPehwCu_vGeRGWiUEQR3TgTiDwxcKI/exec';
 
 contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -61,3 +61,4 @@ contactForm.addEventListener('submit', async (e) => {
         submitBtn.disabled = false;
     }
 });
+
